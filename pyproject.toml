@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "transactions"
+version = "0.1.0"
+description = "код для виджета \"Операции по счетам\""
+authors = ["SagertStav <biryukovsrg@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

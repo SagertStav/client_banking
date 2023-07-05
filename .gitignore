@@ -1,0 +1,6 @@
+/venv/
+.idea/
+*cashe*.*
+
+#файл-источник, временно распаковываемый из zip-архива operations.zip
+operations.json
