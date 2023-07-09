@@ -1,6 +1,7 @@
-/venv/
+venv/
 .idea/
-*cashe*.*
+__pycache__/
+*.pyc
+*cache*.*
 
-#файл-источник, временно распаковываемый из zip-архива operations.zip
 operations.json
