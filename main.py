@@ -14,5 +14,4 @@ if __name__ == '__main__':
     # распакуем файл из архива (источник может и передаваться на вход в виде zip-файла)
     Archive(actions_source).extractall(pathlib.Path.cwd())
     last_five_transactions = func.last5_actions(func.read_actions(func.transactions_file))
-    # print(last_five_transactions)
     print(func.chain_last_transactions(last_five_transactions))
